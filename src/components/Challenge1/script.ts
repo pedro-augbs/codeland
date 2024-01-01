@@ -2,9 +2,9 @@ import { v4 as uuidv4 } from "uuid";
 
 const DATA = [
 	{
-		title: "What is a programming language? Learn about the main ones",
+		title: "What is programming language? Get to know the main ones.",
 		content:
-			"The programming field is one of the most popular areas of information technology. It continues to have a high demand for work, precisely because of the speed with which technological devices are advancing.",
+			"One of the most popular branches of information technology, the field of programming continues to have high demand for work, precisely due to the speed at which technological devices are advancing.",
 		date: "Ago 17th, 2024",
 	},
 	{

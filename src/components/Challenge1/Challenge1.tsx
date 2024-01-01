@@ -28,7 +28,7 @@ export const Challenge1 = () => {
 	};
 
 	return (
-		<main className="flex min-h-screen flex-col items-center text-white">
+		<main className="flex flex-1 flex-col items-center">
 			<div className="flex w-full flex-col items-center gap-6 bg-zinc-800 px-[10%] py-8">
 				<h1 className="text-4xl font-bold">
 					<span className="text-primary">Code</span>land
@@ -60,7 +60,11 @@ export const Challenge1 = () => {
 								htmlFor={i.id}
 								className="relative cursor-pointer text-primary transition-all"
 							>
-								{checkboxStates[i.id] ? <HeartFilledIcon /> : <HeartIcon />}
+								{checkboxStates[i.id] ? (
+									<HeartFilledIcon className="w-5 h-5" />
+								) : (
+									<HeartIcon className="w-5 h-5" />
+								)}
 								<Checkbox
 									id={i.id}
 									checked={checkboxStates[i.id] || false}
